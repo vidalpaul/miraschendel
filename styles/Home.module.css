@@ -148,6 +148,51 @@
   height: 100%;
 }
 
+.timeNav{
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(0,0,0);
+  background-color: rgb(0,0,0, 0.4);
+}
+
+.timeNav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  /* padding: 14px; */
+  text-decoration: none;
+  padding: auto;
+  margin: 20px;
+}
+
+.timeNav a:hover{
+  text-decoration: underline;
+  /* text-decoration-style: dotted; */
+  text-decoration-thickness: 10%;
+  text-underline-offset: 0.5em;
+}
+
+/* .navlink::after .navlink a:hover{
+  content: '.';
+    display: inline-block; */
+
+    /* position the dot underneath the character */
+    /* position: absolute;
+    bottom: -1px;
+    left: 0; */
+
+    /* center the dot horizontally */
+    /* text-align: center;
+    width: 100%;
+
+} */
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
