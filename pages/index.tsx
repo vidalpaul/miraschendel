@@ -56,7 +56,7 @@ export default function Home() {
               <a href='#1988'>1988</a>
             </div>
           </div>
-          <h1 className={styles.title}>mira schendel - life and work</h1>
+          <h1 className={styles.title}>mira schendel · vie et œuvre</h1>
         </div>
 
         {ages.map((age, i) => {
